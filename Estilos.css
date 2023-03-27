@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header{
     background-color: green;
@@ -39,4 +40,8 @@
 .general{
     position: absolute;
     width: auto;
+}
+.img{
+    width: 50%;
+    height: 30%;
 }
