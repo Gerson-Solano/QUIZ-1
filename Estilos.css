@@ -4,23 +4,27 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header{
-    background-color: green;
+    background-color: darkcyan;
     width: 100%;
     float: left;
     height: 50px;
     padding-bottom: 6%;
 }
 .footer{
-    background-color: black;
+    background-color: #283747;
     width: 100%;
     float: left;
-    height: 40px;
+    height: 60px;
+    color: aliceblue;
+   
 }
 .main{
     background-color: gray;
     width: 100%;
     float: left;
     height: 300px;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 .menu{
     background-color: cyan;
@@ -40,6 +44,7 @@
 .general{
     position: absolute;
     width: auto;
+    
 }
 .img{
     width: 50%;
