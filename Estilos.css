@@ -25,12 +25,13 @@
     height: 400px;
     padding-top: 6%;
     padding-bottom: 6%;
+    
 }
 .menu{
     background-color: #FFF2F2;
-    
     width: 25%;
     float: left;
+    
 }
 .dashboard{
     background-color: #8EA7E9;
