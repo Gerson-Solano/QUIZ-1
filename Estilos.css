@@ -25,6 +25,7 @@
     height: 400px;
     padding-top: 6%;
     padding-bottom: 6%;
+    grid-template-columns: auto auto auto;
 }
 .menu{
     background-color: #FFF2F2;
@@ -36,6 +37,7 @@
     background-color: #8EA7E9;
     width: 50%;
     float: left;
+   
 }
 .rss{
     background-color: #FFF2F2;
@@ -44,8 +46,7 @@
 }
 .general{
     position: absolute;
-    width: auto;
-    
+    width: auto;   
 }
 
 .img{
@@ -55,12 +56,10 @@
 }
 
 .logo{
+    display: grid;
     width: 5%;
-    /* height: 20%; */
-    display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border: rgb(34, 121, 155) solid 1px;
-  margin: 6px 0 0 10px;
-  float: left;
+    text-align: center;
+    border: rgb(34, 121, 155) solid 1px;
+    margin: 0.5% 0 0 0.5%; 
+    float: left;
 }
