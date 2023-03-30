@@ -50,8 +50,7 @@
 }
 .general{
     position: absolute;
-    width: auto;
-   
+    width: auto;  
 }
 
 .img{
@@ -63,8 +62,10 @@
 
 .logo{
     width: 5%;
+    display: table-cell;
     text-align: center;
+    vertical-align: middle;
     border: rgb(34, 121, 155) solid 1px;
-    margin: 0.5% 0 0 0.5%; 
+    margin: 6px 0 0 10px;
     float: left;
 }
