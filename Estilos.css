@@ -3,6 +3,7 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .header{
     background-color: #7286D3;
     width: 100%;
@@ -13,10 +14,11 @@
 .footer{
     background-color: #7286D3;
     width: 100%;
-    float: left;
+    float: right  ;
     height: 60px;
     color: black;
-    margin-top: 0%;
+    margin-top: auto;
+    bottom: 0;
 }
 .main{
     background-color: #E5E0FF;
@@ -25,23 +27,22 @@
     height: 400px;
     padding-top: 6%;
     padding-bottom: 6%;
-    grid-template-columns: auto auto auto;
 }
 .menu{
     background-color: #FFF2F2;
-    width: 25%;
+    width: 100%;
     float: left;
     
 }
 .dashboard{
     background-color: #8EA7E9;
-    width: 50%;
+    width: 100%;
     float: left;
    
 }
 .rss{
     background-color: #FFF2F2;
-    width: 25%;
+    width: 100%;
     float: left;
 }
 .general{
@@ -65,4 +66,15 @@
   border: rgb(34, 121, 155) solid 1px;
   margin: 6px 0 0 10px;
   float: left;
+}
+.prueba{
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    grid-template-rows: 100% 100% 100%;
+    column-gap: 20px;
+}
+.gridGeneral{
+    display: grid;
+    row-gap: 5px;
+    float: right;
 }
