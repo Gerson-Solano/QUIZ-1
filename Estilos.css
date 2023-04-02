@@ -73,13 +73,12 @@
 .logo{
     display: grid;
     width: 5%;
-    /* height: 20%; */
-    display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border: rgb(34, 121, 155) solid 1px;
-  margin: 6px 0 0 10px;
-  float: left;
+    padding-top: 8px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius:4px;
+    margin: 6px 0 0 10px;
+    float: left;
 }
 .gridMain{
     display: grid;
